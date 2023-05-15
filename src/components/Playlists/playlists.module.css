@@ -1,0 +1,44 @@
+.playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.playlist_item {
+  color: rgb(173, 163, 163);
+  cursor: pointer;
+}
+
+.playlist_item.selected,
+.playlist_item:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .playlist {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding-right: 15px;
+    margin-left: 0;
+  }
+
+  .playlist_item {
+    width: 47%;
+    height: 2.5rem;
+    background-color: rgb(64, 64, 64);
+    padding: 0.3rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+  }
+
+  .playlist_item.selected,
+  .playlist_item:hover {
+    background-color: rgba(17, 226, 101, 0.819);
+  }
+}

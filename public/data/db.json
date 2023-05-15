@@ -1,0 +1,90 @@
+{
+  "playlists": [
+    {
+      "name": "For you",
+      "id": 1
+    },
+    {
+      "name": "Top Tracks",
+      "id": 2
+    },
+    {
+      "name": "Favorites",
+      "id": 3
+    }
+  ],
+  "songs": [
+    {
+      "title": "90's sitcom",
+      "artist": "John Bartmann",
+      "id": 1,
+      "playlist_id": 1,
+      "url": "assets/music/John Bartmann - 90s Sitcom Joy.mp3",
+      "image": "assets/images/90s.webp",
+      "duration": 62
+    },
+    {
+      "title": "Night in the Castle",
+      "artist": "kevin Macleod",
+      "id": 2,
+      "playlist_id": 1,
+      "url": "assets/music/Night in the Castle.mp3",
+      "image": "assets/images/sand_castle2.webp",
+      "duration": 189
+    },
+    {
+      "title": "Pickled Pink",
+      "artist": "kevin Macleod",
+      "id": 3,
+      "playlist_id": 1,
+      "url": "assets/music/Pickled Pink.mp3",
+      "image": "assets/images/pink.webp",
+      "duration": 175
+    },
+    {
+      "title": "It Was Another Time",
+      "artist": "John Bartmann",
+      "id": 4,
+      "playlist_id": 1,
+      "url": "assets/music/John Bartmann - It Was Another Time.mp3",
+      "image": "assets/images/time.webp",
+      "duration": 70
+    },
+    {
+      "title": "Meditating Beat",
+      "artist": "kevin Macleod",
+      "id": 5,
+      "playlist_id": 2,
+      "url": "assets/music/Meditating Beat.mp3",
+      "image": "assets/images/dark_forrest.webp",
+      "duration": 157
+    },
+    {
+      "title": "Hopeful Start",
+      "artist": "John Bartmann",
+      "id": 6,
+      "playlist_id": 2,
+      "url": "assets/music/John Bartmann - Hopeful Start.mp3",
+      "image": "assets/images/peace3.webp",
+      "duration": 132
+    },
+    {
+      "title": "City Sunshine",
+      "artist": "kevin Macleod",
+      "id": 7,
+      "playlist_id": 3,
+      "url": "assets/music/City Sunshine.mp3",
+      "image": "assets/images/city.webp",
+      "duration": 184
+    },
+    {
+      "title": "In The Dark",
+      "artist": "FSM Team",
+      "id": 8,
+      "playlist_id": 3,
+      "url": "assets/music/in-the-dark.mp3",
+      "image": "assets/images/peace2.webp",
+      "duration": 70
+    }
+  ]
+}
